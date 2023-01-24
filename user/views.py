@@ -18,3 +18,6 @@ def intro(request, name, age):
 
 def mycommonpage(request):
     return render(request, 'common.html')
+
+def servicespage(request):
+    return render(request, 'servicespage.html')
